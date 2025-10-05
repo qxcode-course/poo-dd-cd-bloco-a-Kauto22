@@ -1,0 +1,25 @@
+2025-10-04 20:48:08, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-04 20:48:09, EXEC, v:1, k:calculadora, mode:FULL, rate:0, size:24
+2025-10-04 20:48:16, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 21:11:29, EXEC, v:1, k:calculadora, mode:FULL, rate:0, size:49
+2025-10-04 21:11:35, EXEC, v:1, k:calculadora, mode:FULL, rate:0
+2025-10-04 21:19:33, EXEC, v:1, k:calculadora, mode:FULL, rate:0, size:59
+2025-10-04 21:19:41, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 21:30:09, EXEC, v:1, k:calculadora, mode:FULL, rate:0, size:77
+2025-10-04 21:33:08, EXEC, v:1, k:calculadora, mode:FULL, rate:9, size:73
+2025-10-04 21:33:15, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 21:38:36, EXEC, v:1, k:calculadora, mode:FREE, size:71
+2025-10-04 21:45:00, EXEC, v:1, k:calculadora, mode:FREE, size:73
+2025-10-04 21:45:06, EXEC, v:1, k:calculadora, mode:FULL, rate:36
+2025-10-04 21:46:51, EXEC, v:1, k:calculadora, mode:FULL, rate:81, size:73
+2025-10-04 21:47:04, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 21:48:59, EXEC, v:1, k:calculadora, mode:FULL, rate:81
+2025-10-04 21:50:40, EXEC, v:1, k:calculadora, mode:FULL, rate:72, size:73
+2025-10-04 21:52:18, EXEC, v:1, k:calculadora, mode:FULL, rate:81, size:73
+2025-10-04 21:55:56, EXEC, v:1, k:calculadora, mode:FULL, rate:81, size:71
+2025-10-04 21:57:17, EXEC, v:1, k:calculadora, mode:FULL, rate:100, size:71
+2025-10-04 21:57:47, EXEC, v:1, k:calculadora, mode:FULL, rate:72, size:68
+2025-10-04 21:58:47, EXEC, v:1, k:calculadora, mode:FULL, rate:100, size:71
+2025-10-04 22:53:51, EXEC, v:1, k:calculadora, mode:FULL, rate:100
+2025-10-04 22:53:57, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-04 22:55:46, SELF, v:1, k:calculadora, rate:100, iagen:s, guide:s, alone:8, study:140

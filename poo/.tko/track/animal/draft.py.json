@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-23_17-02-31",
+            "content": "@@ -2,18 +2,18 @@\n lass Ani\n-m\n a\n+m\n l:%0A    d\n",
+            "lines": "37"
+        },
+        {
+            "label": "2025-09-23_17-03-52",
+            "content": "@@ -741,16 +741,39 @@\n         \n+elif args%5B0%5D == %22grow%22:\n %0A%0A      \n",
+            "lines": "37"
+        },
+        {
+            "label": "2025-09-23_17-05-56",
+            "content": "@@ -32,25 +32,24 @@\n self, specie\n-s\n : str, sound\n@@ -75,17 +75,16 @@\n f.specie\n-s\n : str = \n@@ -89,17 +89,16 @@\n = specie\n-s\n %0A       \n@@ -201,17 +201,16 @@\n f.specie\n-s\n %7D:%7Bself.\n@@ -229,16 +229,53 @@\n ound%7D%22%0A%0A\n+    %22%22%22 def ageBy(self) -%3E int: %22%22%22%0A%0A\n     def \n@@ -410,184 +410,8 @@\n %22)%0A%0A\n-    def makeSound(self) -%3E str:%0A        if self.age == 1: #filhote%0A            return %22--%22%0A        if self.age == 4: #morreu%0A            return %22RIP%22%0A        return self.sound%0A\n %0Adef\n@@ -745,168 +745,9 @@\n     \n-elif args%5B0%5D == %22grow%22:%0A            amount = int(args%5B1%5D)%0A            animal.grow(amount)%0A        elif args%5B0%5D == %22noise%22:%0A            print(animal.makeSound())\n+%0A\n %0A   \n",
+            "lines": "37"
+        },
+        {
+            "label": "2025-09-29_10-11-52",
+            "content": "@@ -375,111 +375,8 @@\n eu%22)\n-%0A        if self.age %3E= 4:%0A            self.age = 4%0A            print(f%22warning: %7Bself.specie%7D morreu%22)\n %0A%0A  \n@@ -428,17 +428,17 @@\n .age == \n-0\n+1\n : #filho\n@@ -462,17 +462,16 @@\n turn %22--\n--\n %22%0A      \n",
+            "lines": "44"
+        },
+        {
+            "label": "2025-09-29_10-14-45",
+            "content": "@@ -456,33 +456,32 @@\n ng: %7Bself.specie\n-s\n %7D morreu%22)%0A%0A    \n",
+            "lines": "47"
+        },
+        {
+            "label": "2025-09-29_10-17-03",
+            "content": "@@ -266,16 +266,43 @@\n : int):%0A\n+        self.age += amount%0A\n         \n@@ -376,54 +376,8 @@\n u%22)%0A\n-            return%0A        self.age += amount%0A\n     \n",
+            "lines": "47"
+        },
+        {
+            "label": "2025-09-29_10-17-52",
+            "content": "@@ -866,17 +866,16 @@\n   break%0A\n-%0A\n         \n@@ -1000,17 +1000,16 @@\n  sound)%0A\n-%0A\n         \n@@ -1098,17 +1098,16 @@\n amount)%0A\n-%0A\n         \n@@ -1131,16 +1131,16 @@\n noise%22:%0A\n+\n         \n@@ -1173,21 +1173,8 @@\n ())%0A\n-            %0A\n     \n",
+            "lines": "48"
+        },
+        {
+            "label": "2025-09-29_10-18-48",
+            "content": "class Animal:\n    def __init__(self, species: str, sound: str):\n        self.species: str = species\n        self.sound: str = sound\n        self.age: int = 0\n\n    def __str__(self):\n        return f\"{self.species}:{self.age}:{self.sound}\"\n\n    def grow(self, amount: int):\n        if self.age >= 4:\n            print(f\"warning: {self.species} morreu\")\n            return\n        self.age += amount\n        if self.age >= 4:\n            self.age = 4\n            print(f\"warning: {self.species} morreu\")\n\n    def makeSound(self) -> str:\n        if self.age == 0: #filhote\n            return \"---\"\n        if self.age == 4: #morreu\n            return \"RIP\"\n        return self.sound\n\ndef main():\n    animal: Animal = Animal(\"\", \"\")\n    while True:\n        line = input()\n        print(\"$\" + line)\n        args = line.split(\" \")\n\n        if args[0] == \"end\":\n            break\n\n        elif args[0] == \"init\":\n            species = args[1]\n            sound = args[2]\n            animal = Animal(species, sound)\n\n        elif args[0] == \"grow\":\n            amount = int(args[1])\n            animal.grow(amount)\n\n        elif args[0] == \"noise\":\n            print(animal.makeSound())\n            \n        elif args[0] == \"show\":\n            print(animal)\n    else:\n        print(\"fail: comando inv\u00e1lido\")\nmain()",
+            "lines": "52"
+        }
+    ]
+}

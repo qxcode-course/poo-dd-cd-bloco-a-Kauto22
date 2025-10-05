@@ -9,11 +9,15 @@ expanded:
 - configuracao-e-aquecimento
 - campanha-principal
 - bloco_b-primeiras-classes
-tasks: {}
+tasks:
+  animal: '{rate:100, human:s, iagen:s, guide:s, alone:7, study:100}'
+  carro: '{rate:100, human:s, iagen:s, alone:6, study:140}'
+  calculadora: '{rate:100, iagen:s, guide:s, alone:8, study:140}'
+  enxugar: '{rate:100, human:s, iagen:n, guide:s, other:n, alone:6, study:120}'
 flags:
   quests: 0
   tracks: 0
   tasks: 0
-  graph: 0
+  graph: 1
   xray: 0
-index: toalha
+index: calculadora
